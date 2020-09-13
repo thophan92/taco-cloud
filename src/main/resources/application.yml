@@ -4,7 +4,7 @@ server:
 spring:
   datasource:
     driver-class-name: org.postgresql.Driver
-    url: "jdbc:postgresql://localhost:5432/test"
+    url: jdbc:postgresql://postgresqldocker:5432/taco
     username: postgres
     password: postgres
   jpa:
