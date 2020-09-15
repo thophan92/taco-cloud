@@ -16,7 +16,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 @RunWith(SpringRunner.class)
 @SpringBootTest(webEnvironment=WebEnvironment.RANDOM_PORT)
 public class HomePageBrowserTest {
-  
+
   @LocalServerPort
   private int port;
   private static HtmlUnitDriver browser;  
