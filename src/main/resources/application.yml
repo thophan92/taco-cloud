@@ -2,20 +2,5 @@ server:
   port: 8081
   
 spring:
-  datasource:
-    driver-class-name: org.postgresql.Driver
-    url: jdbc:postgresql://postgresqldocker:5432/taco
-    username: postgres
-    password: postgres
   jpa:
-    hibernate:      ddl-auto: create
     show-sql: true
-    database-platform: org.hibernate.dialect.PostgreSQLDialect
-    open-in-view: false
-    generate-ddl: true
-
-logging:
-  pattern:    console: "%d %-5level %logger : %msg%n"
-  level:    org.springframework: info
-    org.hibernate: debug
-    
